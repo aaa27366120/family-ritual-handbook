@@ -111,12 +111,14 @@
     if (d <= 10) return '初' + '一二三四五六七八九十'[d - 1];
     if (d < 20) return '十' + '一二三四五六七八九'[d - 11];
     if (d === 20) return '二十';
-    if (d < 30) return '廿' + '一二三四五六七八九'[d - 21];
+    if (d < 30) return '二十' + '一二三四五六七八九'[d - 21];
     return '三十';
   }
+  // 阿拉伯數字在前、國字在括號內，例如：農曆10月12日（十月十二）、農曆1月9日（正月初九）
+  function lunarArabic(m, leap, d) { return (leap ? '閏' : '') + m + '月' + d + '日'; }
   function fmtLunar(day) {
     var L = lunarOf(day);
-    return '農曆' + lunarMonthName(L.m, L.leap) + lunarDayName(L.d);
+    return '農曆' + lunarArabic(L.m, L.leap, L.d) + '（' + lunarMonthName(L.m, L.leap) + lunarDayName(L.d) + '）';
   }
   function lunarYearName(ry) {
     var s = ((ry - 4) % 10 + 10) % 10, b = ((ry - 4) % 12 + 12) % 12;

@@ -91,7 +91,7 @@
       "date": {
         "type": "lunarLastDay",
         "month": 12,
-        "note": "農曆年最後一天，一般為廿九"
+        "note": "農曆年最後一天，一般為二十九"
       },
       "targets": [
         "神明",

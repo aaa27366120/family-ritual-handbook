@@ -99,7 +99,7 @@
     h += '<div class="drow"><span class="lbl">國曆</span><span>' + esc(gShort) + '</span></div>';
     if (Cal.supported) {
       var L = Cal.lunarOf(todayDay);
-      h += '<div class="drow"><span class="lbl">農曆</span><span>' + esc(Cal.fmtLunar(todayDay)) + '</span></div>';
+      h += '<div class="drow"><span class="lbl">農曆</span><span>' + Cal.fmtLunar(todayDay).replace(/^農曆/, '').split('（').map(function (x, i) { return '<span class="nw">' + esc(i ? '（' + x : x) + '</span>'; }).join('') + '</span></div>';
       h += '<div class="dsub">' + esc(Cal.lunarYearName(L.y)) + '　民國 ' + Cal.rocYear(todayDay) + ' 年</div>';
     } else {
       h += '<div class="warn">這個瀏覽器不支援農曆換算，請改用較新版本的 Chrome、Safari 或 Edge。</div>';

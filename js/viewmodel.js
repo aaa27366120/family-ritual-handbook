@@ -13,11 +13,15 @@
   function ruleText(f) {
     var d = f.date;
     if (d.type === 'lunar') {
-      return '農曆' + Cal.lunarMonthName(d.month) + Cal.lunarDayName(d.day) +
-        (d.alsoDays || []).map(function (x) { return '或' + Cal.lunarDayName(x); }).join('');
+      var also = d.alsoDays || [];
+      var ar = d.month + '月' + d.day + also.map(function (x) { return '或' + x; }).join('') + '日';
+      var kz = Cal.lunarMonthName(d.month) + Cal.lunarDayName(d.day) +
+        also.map(function (x) { return '或' + Cal.lunarDayName(x); }).join('');
+      return '農曆' + ar + '（' + kz + '）';
     }
     if (d.type === 'lunarLastDay') {
-      return '農曆' + Cal.lunarMonthName(d.month) + '最後一天' + (d.note ? '（' + d.note.replace(/^農曆年最後一天，?/, '') + '）' : '');
+      var note = d.note ? d.note.replace(/^農曆年最後一天，?/, '') : '';
+      return '農曆' + d.month + '月最後一天（' + Cal.lunarMonthName(d.month) + '最後一天' + (note ? '，' + note : '') + '）';
     }
     if (d.type === 'solarTerm') return d.label || (d.term + '節氣');
     return '';
