@@ -1,0 +1,1283 @@
+{
+  "meta": {
+    "title": "家中節日祭祀備忘手冊",
+    "version": 1,
+    "defaultNotifyDays": 3,
+    "noindex": true,
+    "_說明": {
+      "date.type": "lunar=農曆固定日；lunarLastDay=農曆某月最後一天；solarTerm=節氣加減天數",
+      "alsoDays": "可選的其他日期",
+      "notifyDaysBefore": "提前幾天在首頁提醒，並標明實際祭拜日",
+      "showFromOffsetDays": "節氣類：以節氣當天為基準，從幾天前開始在首頁顯示（-3＝節氣前三天），並標明實際祭拜日",
+      "strike": "原文有劃線的項目，網頁以刪除線顯示並附 remark",
+      "supplement": "補充說明與維基百科連結，與原始內容分開，待查證後補入"
+    }
+  },
+  "glossary": [
+    {
+      "term": "飯春",
+      "alias": [
+        "春花"
+      ],
+      "meaning": "一種插在飯上面的春仔花。文中「插春花」即是插上這種花。"
+    },
+    {
+      "term": "米栳",
+      "alias": [],
+      "meaning": "指米粩，是一種乾糧。"
+    },
+    {
+      "term": "乾糧",
+      "alias": [],
+      "meaning": "一般乾糧的統稱。"
+    },
+    {
+      "term": "裝衣",
+      "alias": [
+        "經衣"
+      ],
+      "meaning": "一種金紙，也叫做經衣。"
+    }
+  ],
+  "festivals": [
+    {
+      "id": "dijizhu-year-end",
+      "name": "拜地基主（年尾）",
+      "date": {
+        "type": "lunar",
+        "month": 12,
+        "day": 27,
+        "alsoDays": [
+          28
+        ]
+      },
+      "targets": [
+        "地基主"
+      ],
+      "time": null,
+      "earlyWindow": null,
+      "offerings": [
+        {
+          "group": "供品",
+          "items": [
+            "飯＋菜共5種"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "四方金",
+          "count": "1只"
+        }
+      ],
+      "steps": [],
+      "placement": [
+        "往內拜"
+      ],
+      "taboos": [],
+      "notes": [
+        "魚、肉整塊拜，不切開"
+      ],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "chuxi",
+      "name": "除夕（過年）",
+      "date": {
+        "type": "lunarLastDay",
+        "month": 12,
+        "note": "農曆年最後一天，一般為廿九"
+      },
+      "targets": [
+        "神明",
+        "公媽"
+      ],
+      "time": null,
+      "earlyWindow": null,
+      "offerings": [],
+      "paper": [],
+      "steps": [
+        {
+          "time": "早上",
+          "text": "先煮飯，端2小碗（飯春、發糕）。瓦斯爐旁、神桌旁各放一個，並插上春花。"
+        },
+        {
+          "time": "中午",
+          "text": "年糕、發糕疊起，插上春花；另備鳳梨、橘子、鮮花。神桌旁、公媽旁各放一組，發糕要插上春花。糖果：神明、公媽各放一盤（糖果天天換）。"
+        },
+        {
+          "time": "中午約1點",
+          "target": "神明",
+          "text": "拜神明。",
+          "offerings": [
+            {
+              "group": "供品",
+              "items": [
+                "牲禮一付",
+                "水果5種"
+              ]
+            }
+          ],
+          "paper": [
+            {
+              "name": "壽金"
+            },
+            {
+              "name": "四方金"
+            }
+          ]
+        },
+        {
+          "time": "下午4–5點",
+          "target": "公媽",
+          "text": "拜公媽。",
+          "offerings": [
+            {
+              "group": "供品",
+              "items": [
+                "一般食物11種以上"
+              ]
+            }
+          ],
+          "paper": [
+            {
+              "name": "四方金",
+              "count": "燒11只"
+            }
+          ]
+        }
+      ],
+      "placement": [],
+      "taboos": [],
+      "notes": [],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "chuyi",
+      "name": "初一（新年）",
+      "date": {
+        "type": "lunar",
+        "month": 1,
+        "day": 1
+      },
+      "targets": [
+        "神明",
+        "公媽"
+      ],
+      "time": null,
+      "earlyWindow": null,
+      "offerings": [],
+      "paper": [],
+      "steps": [
+        {
+          "time": "早上",
+          "target": "神明",
+          "text": "先拜神明。",
+          "offerings": [
+            {
+              "group": "供品",
+              "items": [
+                "水果3種或5種"
+              ]
+            }
+          ],
+          "paper": [
+            {
+              "name": "壽金"
+            },
+            {
+              "name": "四方金"
+            }
+          ]
+        },
+        {
+          "time": "早上7–8點",
+          "target": "公媽",
+          "text": "拜公媽。",
+          "offerings": [
+            {
+              "group": "供品",
+              "items": [
+                "一般食物11種以上（數樣素菜）"
+              ]
+            }
+          ],
+          "paper": [
+            {
+              "name": "四方金",
+              "count": "11只"
+            }
+          ]
+        },
+        {
+          "text": "早上吃麵線，不折斷。"
+        },
+        {
+          "text": "晚上要燒香，燒壽金1只。"
+        }
+      ],
+      "placement": [],
+      "taboos": [
+        "不洗衣服",
+        "不掃地",
+        "不說壞話"
+      ],
+      "notes": [
+        "存好心，過好年"
+      ],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "kaishi",
+      "name": "開市",
+      "date": {
+        "type": "lunar",
+        "month": 1,
+        "day": 5
+      },
+      "targets": [
+        "關聖帝君",
+        "財神",
+        "土地公"
+      ],
+      "time": null,
+      "earlyWindow": null,
+      "offerings": [
+        {
+          "group": "供品",
+          "items": [
+            "水果5種",
+            "糖果"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "四方金"
+        },
+        {
+          "name": "壽金"
+        }
+      ],
+      "steps": [],
+      "placement": [],
+      "taboos": [],
+      "notes": [
+        "祭拜家中供奉的關聖帝君，或財神、土地公。"
+      ],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "chuwu",
+      "name": "初五（收供品）",
+      "date": {
+        "type": "lunar",
+        "month": 1,
+        "day": 5
+      },
+      "targets": [
+        "家中供品"
+      ],
+      "time": null,
+      "earlyWindow": null,
+      "offerings": [],
+      "paper": [],
+      "steps": [
+        {
+          "time": "早上",
+          "text": "點香拜拜，說：「今天初五要把供品收下來。」",
+          "paper": [
+            {
+              "name": "壽金",
+              "count": "1只"
+            }
+          ]
+        },
+        {
+          "time": "早上",
+          "text": "把廳桌上所有的供品取下來。"
+        }
+      ],
+      "placement": [],
+      "taboos": [],
+      "notes": [],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "tiangong",
+      "name": "天公生（玉皇大帝）",
+      "date": {
+        "type": "lunar",
+        "month": 1,
+        "day": 9
+      },
+      "targets": [
+        "玉皇大帝"
+      ],
+      "time": null,
+      "earlyWindow": "初八晚上11點過後可以拜天公",
+      "offerings": [
+        {
+          "group": "第一組",
+          "items": [
+            "蠟燭一對",
+            "鮮花一對",
+            "壽桃6顆",
+            "發糕1個"
+          ]
+        },
+        {
+          "group": "第二組",
+          "items": [
+            "水果5種",
+            "麵線3束（圈紅紙）",
+            "米栳3種",
+            "乾糧3種",
+            "敬茶3杯"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "天公金"
+        }
+      ],
+      "steps": [
+        {
+          "text": "點1次香"
+        },
+        {
+          "text": "桌腳墊金紙",
+          "strike": true,
+          "remark": "原文已劃線；依情況，仍會遵守傳統"
+        },
+        {
+          "text": "可以放鞭炮"
+        }
+      ],
+      "placement": [],
+      "taboos": [],
+      "notes": [],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "shangyuan",
+      "name": "三界公生（天官大帝・上元節）",
+      "date": {
+        "type": "lunar",
+        "month": 1,
+        "day": 15
+      },
+      "targets": [
+        "三界公",
+        "天官大帝"
+      ],
+      "time": null,
+      "earlyWindow": "十四日晚上11點過後可以拜",
+      "offerings": [
+        {
+          "group": "第一組",
+          "items": [
+            "蠟燭一對",
+            "鮮花一對",
+            "壽桃6顆",
+            "發糕1個"
+          ]
+        },
+        {
+          "group": "第二組",
+          "items": [
+            "水果5種",
+            "麵線3束（圈紅紙）",
+            "米栳3種",
+            "乾糧3種",
+            "敬茶3杯"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "天公金"
+        }
+      ],
+      "steps": [
+        {
+          "text": "點1次香"
+        },
+        {
+          "text": "桌腳墊金紙",
+          "strike": true,
+          "remark": "原文已劃線；依情況，仍會遵守傳統"
+        },
+        {
+          "text": "可以放鞭炮"
+        }
+      ],
+      "placement": [],
+      "taboos": [],
+      "notes": [],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "touya",
+      "name": "頭牙（拜土地公）",
+      "date": {
+        "type": "lunar",
+        "month": 2,
+        "day": 2
+      },
+      "targets": [
+        "土地公"
+      ],
+      "time": null,
+      "earlyWindow": null,
+      "offerings": [
+        {
+          "group": "供品",
+          "items": [
+            "牲禮一付，或水果3種或5種"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "壽金"
+        },
+        {
+          "name": "四方金"
+        }
+      ],
+      "steps": [],
+      "placement": [],
+      "taboos": [],
+      "notes": [],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "dijizhu-qingming",
+      "name": "清明前拜地基主",
+      "date": {
+        "type": "solarTerm",
+        "term": "清明",
+        "offsetDays": [
+          -2,
+          -1
+        ],
+        "showFromOffsetDays": -3,
+        "label": "清明前一天或前兩天（過去為國曆4/3或4日）"
+      },
+      "targets": [
+        "地基主"
+      ],
+      "time": null,
+      "earlyWindow": null,
+      "offerings": [
+        {
+          "group": "供品",
+          "items": [
+            "飯＋菜共5種"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "四方金"
+        }
+      ],
+      "steps": [],
+      "placement": [],
+      "taboos": [],
+      "notes": [],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "qingming",
+      "name": "清明節（拜公媽）",
+      "date": {
+        "type": "solarTerm",
+        "term": "清明",
+        "offsetDays": [
+          0
+        ],
+        "showFromOffsetDays": -3,
+        "label": "清明節氣當天（過去為國曆4/5日）"
+      },
+      "targets": [
+        "公媽"
+      ],
+      "time": "早上10點前後可以拜拜",
+      "earlyWindow": null,
+      "offerings": [
+        {
+          "group": "供品",
+          "items": [
+            "一般食物11種以上"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "四方金",
+          "count": "11只"
+        }
+      ],
+      "steps": [
+        {
+          "time": "下午",
+          "text": "掃墓。"
+        }
+      ],
+      "placement": [],
+      "taboos": [],
+      "notes": [],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "duanwu",
+      "name": "端午節",
+      "date": {
+        "type": "lunar",
+        "month": 5,
+        "day": 5
+      },
+      "targets": [
+        "神明",
+        "土地公"
+      ],
+      "time": null,
+      "earlyWindow": null,
+      "offerings": [],
+      "paper": [],
+      "steps": [
+        {
+          "time": "早上",
+          "text": "拿一些艾草、榕樹，插在門前、窗戶。"
+        },
+        {
+          "time": "早上",
+          "target": "神明",
+          "text": "拜神明。",
+          "offerings": [
+            {
+              "group": "供品",
+              "items": [
+                "桃子、李子、鳳梨三種水果"
+              ]
+            }
+          ],
+          "paper": [
+            {
+              "name": "壽金"
+            },
+            {
+              "name": "四方金"
+            }
+          ]
+        },
+        {
+          "target": "土地公",
+          "text": "拜土地公。",
+          "offerings": [
+            {
+              "group": "供品",
+              "items": [
+                "桃子、李子、鳳梨三種水果"
+              ]
+            }
+          ],
+          "paper": [
+            {
+              "name": "壽金"
+            },
+            {
+              "name": "四方金"
+            }
+          ]
+        }
+      ],
+      "placement": [],
+      "taboos": [],
+      "notes": [],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "guansheng",
+      "name": "關聖帝君誕辰",
+      "date": {
+        "type": "lunar",
+        "month": 6,
+        "day": 24
+      },
+      "targets": [
+        "關聖帝君"
+      ],
+      "time": null,
+      "earlyWindow": null,
+      "offerings": [
+        {
+          "group": "供品",
+          "items": [
+            "牲禮一付",
+            "水果3或4種"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "壽金"
+        },
+        {
+          "name": "四方金"
+        }
+      ],
+      "steps": [],
+      "placement": [],
+      "taboos": [],
+      "notes": [],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      },
+      "primary": true
+    },
+    {
+      "id": "haoxiongdi-open",
+      "name": "好兄弟開門",
+      "date": {
+        "type": "lunar",
+        "month": 7,
+        "day": 1
+      },
+      "targets": [
+        "好兄弟"
+      ],
+      "time": "下午3–4點",
+      "earlyWindow": null,
+      "offerings": [
+        {
+          "group": "供品",
+          "items": [
+            "水果3種",
+            "敬茶3杯",
+            "乾糧一些",
+            "臉盆",
+            "毛巾",
+            "水"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "四方金"
+        },
+        {
+          "name": "裝衣"
+        }
+      ],
+      "steps": [],
+      "placement": [],
+      "taboos": [],
+      "notes": [
+        {
+          "text": "每樣食物需插上一炷香，拜拜完先燒裝衣。",
+          "important": true
+        }
+      ],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "qixi",
+      "name": "七娘媽生、床母生（七夕）",
+      "date": {
+        "type": "lunar",
+        "month": 7,
+        "day": 7
+      },
+      "targets": [
+        "七娘媽",
+        "床母"
+      ],
+      "time": "下午2–4點",
+      "earlyWindow": null,
+      "offerings": [],
+      "paper": [],
+      "steps": [
+        {
+          "text": "點香拜床：請床母來與七娘媽同坐。"
+        },
+        {
+          "target": "七娘媽",
+          "text": "拜七娘媽。",
+          "offerings": [
+            {
+              "group": "七娘媽",
+              "items": [
+                "油飯2盤",
+                "圓仔2盤（中間凹一個洞）",
+                "水果3種",
+                "餅乾一包",
+                "雞酒7碗（碗旁邊放筷子）",
+                "鏡子",
+                "梳子",
+                "胭脂粉",
+                "圓仔花",
+                "臉盆",
+                "毛巾",
+                "水"
+              ]
+            }
+          ],
+          "paper": [
+            {
+              "name": "壽金"
+            },
+            {
+              "name": "四方金"
+            }
+          ]
+        },
+        {
+          "target": "床母",
+          "text": "拜床母。",
+          "offerings": [
+            {
+              "group": "床母",
+              "items": [
+                "油飯2碗",
+                "雞酒1碗（放筷子）"
+              ]
+            }
+          ]
+        }
+      ],
+      "placement": [],
+      "taboos": [],
+      "notes": [
+        "拜拜結束之後，把餅乾放進米罐裡。"
+      ],
+      "family": [
+        "在老家附近燒七娘媽亭。"
+      ],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "dijizhu-qiyue",
+      "name": "拜地基主（七月）",
+      "date": {
+        "type": "lunar",
+        "month": 7,
+        "day": 13,
+        "alsoDays": [
+          14
+        ]
+      },
+      "targets": [
+        "地基主"
+      ],
+      "time": "上午10–11點",
+      "earlyWindow": null,
+      "offerings": [
+        {
+          "group": "供品",
+          "items": [
+            "飯＋菜共5種"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "四方金",
+          "count": "1只"
+        }
+      ],
+      "steps": [],
+      "placement": [],
+      "taboos": [],
+      "notes": [
+        "魚、肉整塊拜，不切開"
+      ],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "zhongyuan",
+      "name": "中元普渡（三界公・地官大帝）",
+      "date": {
+        "type": "lunar",
+        "month": 7,
+        "day": 15
+      },
+      "targets": [
+        "公媽",
+        "好兄弟",
+        "地官大帝"
+      ],
+      "time": null,
+      "earlyWindow": null,
+      "offerings": [],
+      "paper": [],
+      "steps": [
+        {
+          "time": "中午10–11點",
+          "target": "公媽",
+          "text": "拜祖先（公媽）。",
+          "offerings": [
+            {
+              "group": "供品",
+              "items": [
+                "一般食物（豐盛一點）"
+              ]
+            }
+          ],
+          "paper": [
+            {
+              "name": "四方金",
+              "count": "11只"
+            }
+          ]
+        },
+        {
+          "time": "下午2:30–4點",
+          "target": "好兄弟",
+          "text": "普渡。",
+          "offerings": [
+            {
+              "group": "上桌",
+              "items": [
+                "（大）牲禮一付",
+                "敬酒（三個杯子）",
+                "水果",
+                "敬茶水（三個杯子）",
+                "飲料",
+                "湯",
+                "紅龜糕"
+              ]
+            },
+            {
+              "group": "下桌",
+              "items": [
+                "（小）牲禮一付",
+                "敬酒（三個酒杯）",
+                "芋糕",
+                "粽",
+                "雜糧",
+                "臉盆",
+                "毛巾",
+                "水"
+              ]
+            }
+          ],
+          "paper": [
+            {
+              "name": "四方金",
+              "group": "下桌"
+            },
+            {
+              "name": "裝衣",
+              "group": "下桌"
+            },
+            {
+              "name": "壽金",
+              "count": "1只",
+              "group": "上桌"
+            }
+          ]
+        }
+      ],
+      "placement": [],
+      "taboos": [],
+      "notes": [],
+      "family": [
+        "老家附近的普渡是在農曆七月二十二日。"
+      ],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "haoxiongdi-close",
+      "name": "好兄弟關門",
+      "date": {
+        "type": "lunar",
+        "month": 7,
+        "day": 29
+      },
+      "targets": [
+        "好兄弟"
+      ],
+      "time": null,
+      "earlyWindow": null,
+      "offerings": [
+        {
+          "group": "供品",
+          "items": [
+            "牲禮一付",
+            "3個酒杯",
+            "一個米罐（插香用）",
+            "米",
+            "水果",
+            "雜糧",
+            "臉盆裝水、毛巾"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "四方金"
+        },
+        {
+          "name": "壽金"
+        },
+        {
+          "name": "裝衣"
+        }
+      ],
+      "steps": [],
+      "placement": [],
+      "taboos": [],
+      "notes": [
+        "燒香完時，先燒裝衣。"
+      ],
+      "family": [
+        "老家附近是在八月一日拜。"
+      ],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "chongyang",
+      "name": "重陽節",
+      "date": {
+        "type": "lunar",
+        "month": 9,
+        "day": 9
+      },
+      "targets": [
+        "公媽"
+      ],
+      "time": "上午10–11點",
+      "earlyWindow": null,
+      "offerings": [
+        {
+          "group": "供品",
+          "items": [
+            "一般食物11種以上"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "四方金",
+          "count": "11只"
+        }
+      ],
+      "steps": [],
+      "placement": [],
+      "taboos": [],
+      "notes": [],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "xiayuan",
+      "name": "下元節（拜天公・水官大帝）",
+      "date": {
+        "type": "lunar",
+        "month": 10,
+        "day": 15
+      },
+      "targets": [
+        "三界公",
+        "水官大帝"
+      ],
+      "time": null,
+      "earlyWindow": "十四日晚上11點過後可以拜拜",
+      "offerings": [
+        {
+          "group": "第一組",
+          "items": [
+            "蠟燭一對",
+            "鮮花一對",
+            "壽桃6顆",
+            "發糕1個"
+          ]
+        },
+        {
+          "group": "第二組",
+          "items": [
+            "水果5種",
+            "麵線3束（圈紅紙）",
+            "米栳3種",
+            "乾糧3種",
+            "敬茶3杯"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "天公金"
+        }
+      ],
+      "steps": [
+        {
+          "text": "點1次香"
+        },
+        {
+          "text": "桌腳墊金紙",
+          "strike": true,
+          "remark": "原文已劃線；依情況，仍會遵守傳統"
+        },
+        {
+          "text": "可以放鞭炮"
+        }
+      ],
+      "placement": [],
+      "taboos": [],
+      "notes": [],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "dijizhu-dongzhi",
+      "name": "冬至前拜地基主",
+      "date": {
+        "type": "solarTerm",
+        "term": "冬至",
+        "offsetDays": [
+          -1
+        ],
+        "showFromOffsetDays": -3,
+        "label": "冬至前一天"
+      },
+      "targets": [
+        "地基主"
+      ],
+      "time": null,
+      "earlyWindow": null,
+      "offerings": [
+        {
+          "group": "供品",
+          "items": [
+            "湯圓3碗"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "四方金",
+          "count": "1只"
+        }
+      ],
+      "steps": [],
+      "placement": [],
+      "taboos": [],
+      "notes": [
+        "每年冬至不一定是農曆十一月十五日，以節氣為準。"
+      ],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "dongzhi",
+      "name": "冬至（拜神明、公媽）",
+      "date": {
+        "type": "solarTerm",
+        "term": "冬至",
+        "offsetDays": [
+          0
+        ],
+        "showFromOffsetDays": -3,
+        "label": "冬至節氣當天"
+      },
+      "targets": [
+        "神明",
+        "公媽"
+      ],
+      "time": null,
+      "earlyWindow": null,
+      "offerings": [
+        {
+          "group": "供品",
+          "items": [
+            "湯圓"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "四方金"
+        }
+      ],
+      "steps": [
+        {
+          "text": "神明先拜，再拜公媽。"
+        },
+        {
+          "target": "神明",
+          "text": "拜神明。",
+          "paper": [
+            {
+              "name": "壽金",
+              "count": "1只"
+            },
+            {
+              "name": "四方金",
+              "count": "1只"
+            }
+          ]
+        },
+        {
+          "target": "公媽",
+          "text": "拜公媽。",
+          "offerings": [
+            {
+              "group": "供品",
+              "items": [
+                "一般食物11種以上"
+              ]
+            }
+          ]
+        }
+      ],
+      "placement": [],
+      "taboos": [],
+      "notes": [
+        "家裡與土地公廟都要拜。",
+        "每年冬至不一定是農曆十一月十五日，以節氣為準。"
+      ],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    },
+    {
+      "id": "weiya",
+      "name": "尾牙（土地公生日）",
+      "date": {
+        "type": "lunar",
+        "month": 12,
+        "day": 16
+      },
+      "targets": [
+        "土地公"
+      ],
+      "time": null,
+      "earlyWindow": null,
+      "offerings": [
+        {
+          "group": "供品",
+          "items": [
+            "牲禮一付，或水果3種"
+          ]
+        }
+      ],
+      "paper": [
+        {
+          "name": "四方金"
+        },
+        {
+          "name": "壽金"
+        }
+      ],
+      "steps": [],
+      "placement": [],
+      "taboos": [],
+      "notes": [],
+      "family": [],
+      "supplement": {
+        "origin": null,
+        "wikipedia": null,
+        "status": "待補充"
+      }
+    }
+  ]
+}
